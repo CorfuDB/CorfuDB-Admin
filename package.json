@@ -1,0 +1,41 @@
+{
+  "name": "nimbus-tool",
+  "version": "1.0.0",
+  "description": "A tool which automatically orchestrates custom Nimbus deployments",
+  "main": "build/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nimbus",
+    "virtual",
+    "machines",
+    "vmware"
+  ],
+  "bin": {
+    "nimbus-tool": "build/tool.js"
+  },
+  "author": "Michael Wei <mwei@vmware.com>",
+  "license": "Apache-2.0",
+  "private": true,
+  "dependencies": {
+    "bluebird": "^2.9.6",
+    "bunyan": "^1.4.0",
+    "bunyan-debug-stream": "^1.0.5",
+    "chalk": "^0.5.1",
+    "corporal": "^0.5.1",
+    "del": "^1.1.1",
+    "docopt": "^0.4.1",
+    "js-yaml": "^3.2.5",
+    "request-promise": "^0.4.2",
+    "temp": "^0.8.1",
+    "xml": "^1.0.0",
+    "yargs": "^1.3.3"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.10",
+    "gulp-header": "^1.2.2",
+    "gulp-tsd": "0.0.4",
+    "gulp-typescript": "^2.4.2"
+  }
+}
